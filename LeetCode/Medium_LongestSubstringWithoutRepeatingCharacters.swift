@@ -19,7 +19,7 @@ class Medium_LongestSubstringWithoutRepeatingCharacters {
         
         var currRepeated : Int = 0
         
-        for var i = 0 ; i < count(input) ; i++ {
+        for var i = 0 ; i < input.characters.count ; i++ {
             
             var current = input[i]
             

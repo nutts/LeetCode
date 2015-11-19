@@ -22,7 +22,7 @@ class ZigZag{
         
         var resultString : String = String("")
         
-        var textSize = count(text)
+        var textSize = text.characters.count
         
         //var nCols :  Int = (textSize + nRows - 1) / nRows
         
@@ -31,16 +31,16 @@ class ZigZag{
         
         var dimensions : [[Character]] = [[Character]](count: nRows, repeatedValue: [Character](count: nCols, repeatedValue: "0"))
         
-        println("the first character of string is \(text[0])")
+        print("the first character of string is \(text[0])")
         
-        while(currIndex < count(text)){
+        while(currIndex < text.characters.count){
             
             var flag = currCol % (nRows - 1)
             
             if (flag == 0 ){
                 for rowIndex in 0...(nRows - 1){
                     
-                    if currIndex < count(text) {
+                    if currIndex < text.characters.count {
                             dimensions[rowIndex][currCol] = text[currIndex]
                             ++currIndex
                     }else{

@@ -25,7 +25,7 @@ class ContainerWithMostWaterTest: XCTestCase {
         let heights = [1, 4, 6, 2, 5]
         let result = ContainerWithMostWater.maxArea(heights)
         
-        println(result)
+        print(result)
         
     
     }

@@ -71,19 +71,19 @@ class InvertBinaryTree{
             
             if currNode?.left != nil && currNode?.right != nil{
                 
-                println("node : \(currNode?.value)")
+                print("node : \(currNode?.value)")
                
-                println(" node \(currNode?.value) -> left:")
+                print(" node \(currNode?.value) -> left:")
                
                 printTree(currNode?.left)
                 
-                println(" node \(currNode?.value) -> right:")
+                print(" node \(currNode?.value) -> right:")
                 
                 printTree(currNode?.right)
                 
                 
             }else{
-                println(currNode?.value)
+                print(currNode?.value)
             }
             
         }

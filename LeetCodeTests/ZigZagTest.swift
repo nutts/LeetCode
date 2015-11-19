@@ -24,7 +24,7 @@ class ZigZagTest: XCTestCase {
         // This is an example of a functional test case.
         let result = ZigZag.convert("PAYPALISHIRING", nRows: 3)
         
-        println(result)
+        print(result)
         
         XCTAssertEqual("PAHNAPLSIIGYIR", result, "no equal")
     }

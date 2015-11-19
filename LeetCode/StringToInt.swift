@@ -18,8 +18,6 @@ class StringToInt{
             return nil
         }
         
-        
-        
         let newString = inputString?.stringByTrimmingCharactersInSet(NSCharacterSet.whitespaceCharacterSet())
         
         var resultInt = 0
@@ -27,8 +25,8 @@ class StringToInt{
         
         var isPositive : Bool = true
         
-        for oneChar in newString! {
-            println(oneChar)
+        for oneChar in newString!.characters {
+            print(oneChar)
             
             if oneChar == "+" {
                 isPositive = true
@@ -38,12 +36,11 @@ class StringToInt{
                 isPositive = false
             }
             
-            if oneChar >= "0" && oneChar <= "9" {
-                resultInt =  resultInt * 10
-                resultInt =  resultInt + String(oneChar).toInt()!
-                println(resultInt)
+            if let currInt = Int(String(oneChar)) {
+                resultInt = resultInt * 10 + currInt
                 
             }
+        
         }
         
         if !isPositive {

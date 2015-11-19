@@ -18,7 +18,7 @@ class DontKnowName {
         
         var value = 0;
         
-        var maxValue = num * num
+        let maxValue = num * num
         
         
         //the first line
@@ -66,7 +66,7 @@ class DontKnowName {
             for var j = 0 ; j < twoDimension[i].count ; ++j {
                 newLine += String(twoDimension[i][j]) + ","
             }
-            println(newLine)
+
         }
     }
 }

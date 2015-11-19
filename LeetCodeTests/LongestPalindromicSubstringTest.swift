@@ -26,7 +26,7 @@ class LongestPalindromicSubstringTest: XCTestCase {
         let a = LongestPalindromicSubstring.longestPalindrome(s)
         
         
-        println("the palindromic string is " + a)
+        print("the palindromic string is " + a)
         
         
         

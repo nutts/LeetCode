@@ -13,33 +13,33 @@ class ValidParentheses{
     class func isValid(a : String) -> Bool{
         var checkStr = ""
         
-        for c in a {
+        for c in a.characters {
             switch(c){
             case "(", "{", "}":
                 checkStr.append(c)
             case "}":
                 if checkStr.lastChar == "{" {
-                    println("is valid")
+                    print("is valid")
                     checkStr.removeLastChar()
                 }else{
                     return false
                 }
             case ")":
                 if checkStr.lastChar == "(" {
-                    println(" is valid ")
+                    print(" is valid ")
                     checkStr.removeLastChar()
                 }else{
                     return false
                 }
             case "]":
                 if checkStr.lastChar == "["{
-                    println("is valid")
+                    print("is valid")
                     checkStr.removeLastChar()
                 }else{
                     return false
                 }
             default:
-                println("ignore")
+                print("ignore")
             }
         }
         if checkStr != "" {

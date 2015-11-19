@@ -37,7 +37,7 @@ class CalendarBrainTest: XCTestCase {
         
         let result = brain.evalue()
         
-        println(result)
+        print(result)
     
     }
 

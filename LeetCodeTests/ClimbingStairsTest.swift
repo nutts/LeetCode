@@ -24,7 +24,7 @@ class ClimbingStairsTest: XCTestCase {
     func testExample() {
         let result = ClimbingStairs.climbStairs(8)
         
-        println("the distinct ways are \(result)")
+        print("the distinct ways are \(result)")
         
     }
 

@@ -24,7 +24,7 @@ class CountAndSayTest: XCTestCase {
     
         let actual = CountAndSay.getTheNthString(4)
         
-        println(actual)
+        print(actual)
     
     }
 

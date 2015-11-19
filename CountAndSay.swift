@@ -31,7 +31,7 @@ class CountAndSay{
         var repeatCount : Int = 1
         var newString  = String()
         
-        for var i = 1 ; i < count(currStr) ; ++i {
+        for var i = 1 ; i < currStr.characters.count ; ++i {
             
             if previousChar == currStr[i] {
                 ++repeatCount

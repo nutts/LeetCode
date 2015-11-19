@@ -40,6 +40,48 @@ class StringToIntTest: XCTestCase {
         XCTAssertEqual(result!, -1234, "passed")
         
     }
+    
+    func testConvert2() {
+        
+        
+        do {
+        
+            let result2 = try StringToInteger.myAtoi("-123ABC")
+            
+        }catch StringParseError.InvalidCharacter{
+            
+            assert(true)
+            
+        }catch {
+            
+            print("catch ")
+        
+        }
+        
+//        if let result3 = try? StringToInteger.myAtoi("AVC123") else{
+//            print("there is fail")
+//        }
+        
+//        let result = try? StringToInteger.myAtoi("-123456")
+//        
+//        XCTAssertEqual(-123456, result)
+        
+        
+//        XCTAssertEqual(result!, 123456, "passed")
+//        
+//        result  = StringToInteger.convert("-1234")
+//        
+//        XCTAssertEqual(result!, -1234, "passed")
+//        
+//        result  = StringToInteger.convert("-1234ABC")
+//        
+//        XCTAssertEqual(result!, -1234, "passed")
+//        
+//        result  = StringToInteger.convert("ABC123")
+//        
+//        XCTAssertEqual(result!, -1234, "passed")
+        
+    }
 
     func testPerformanceExample() {
         // This is an example of a performance test case.

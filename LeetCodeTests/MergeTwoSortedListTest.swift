@@ -49,7 +49,7 @@ class MergeTwoSortedListTest: XCTestCase {
         
         let result = MergeTwoSortedList.merge(list2, list2: list4)
         
-        println(result)
+        print(result)
         
     }
 

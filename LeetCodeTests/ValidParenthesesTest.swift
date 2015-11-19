@@ -30,11 +30,11 @@ class ValidParenthesesTest: XCTestCase {
         
         XCTAssertFalse(ValidParentheses.isValid(testStr), "shoul be false")
         
-       // println(testStr.lastChar)
+       // print(testStr.lastChar)
         
-       // println(testStr.removeLastChar())
+       // print(testStr.removeLastChar())
         
-       // println("after remove last char \(testStr)")
+       // print("after remove last char \(testStr)")
         
     }
 

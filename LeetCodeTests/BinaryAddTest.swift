@@ -24,7 +24,7 @@ class BinaryAddTest: XCTestCase {
     func testExample() {
         let result = BinaryAdd.add("111", b: "11")
         
-        println("the result is \(result)")
+        print("the result is \(result)")
         
         //XCTAssertEqual(result, "111", "failed")
         

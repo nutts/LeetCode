@@ -1,0 +1,63 @@
+//
+//  ExcelSheetColumnNumberTest.swift
+//  LeetCode
+//
+//  Created by 遂 李 on 11/19/15.
+//  Copyright © 2015 遂 李. All rights reserved.
+//
+
+import XCTest
+
+class ExcelSheetColumnNumberTest: XCTestCase {
+    
+    override func setUp() {
+        super.setUp()
+        // Put setup code here. This method is called before the invocation of each test method in the class.
+    }
+    
+    override func tearDown() {
+        // Put teardown code here. This method is called after the invocation of each test method in the class.
+        super.tearDown()
+    }
+    
+    
+    func testExample() {
+//       let r = try? ExcelSheetColumnNumber.titleToNumber("AA")
+//        
+//        XCTAssertEqual(27, r)
+        
+        do{
+         
+            try ExcelSheetColumnNumber.titleToNumber("A2")
+            
+            assertionFailure("should throw in above code line")
+            
+        }catch ConversionError.Invalid_Character {
+            
+            assert(true)
+            
+        }catch let error{
+            
+            assertionFailure("should catch by above catch statement \(error)")
+        }
+        
+        
+    }
+    
+    
+    func testExampleThrowError() throws {
+        
+        try ExcelSheetColumnNumber.titleToNumber("A2")
+        
+        assertionFailure("should not go to this step")
+    }
+
+    
+    func testPerformanceExample() {
+        // This is an example of a performance test case.
+        self.measureBlock {
+            // Put the code you want to measure the time of here.
+        }
+    }
+    
+}

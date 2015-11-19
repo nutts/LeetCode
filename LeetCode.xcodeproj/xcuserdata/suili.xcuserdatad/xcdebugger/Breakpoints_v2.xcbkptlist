@@ -58,12 +58,12 @@
                   moduleName = "LeetCode"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/suili/demo/LeetCode/LeetCode/RemoveNthFromEnd.swift"
-                  timestampString = "462987053.690694"
+                  timestampString = "469589562.627482"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "21"
                   endingLineNumber = "21"
-                  offsetFromSymbolStart = "78">
+                  offsetFromSymbolStart = "74">
                </Location>
                <Location
                   shouldBeEnabled = "Yes"
@@ -73,12 +73,12 @@
                   moduleName = "LeetCodeTests"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/suili/demo/LeetCode/LeetCode/RemoveNthFromEnd.swift"
-                  timestampString = "462987053.892145"
+                  timestampString = "469589563.886662"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "21"
                   endingLineNumber = "21"
-                  offsetFromSymbolStart = "78">
+                  offsetFromSymbolStart = "74">
                </Location>
             </Locations>
          </BreakpointContent>
@@ -154,7 +154,7 @@
                   moduleName = "LeetCode"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/suili/demo/LeetCode/CountAndSay.swift"
-                  timestampString = "462987053.691746"
+                  timestampString = "469589562.629563"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "16"
@@ -169,7 +169,7 @@
                   moduleName = "LeetCodeTests"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/suili/demo/LeetCode/CountAndSay.swift"
-                  timestampString = "462987053.892827"
+                  timestampString = "469589563.887536"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "16"
@@ -202,12 +202,12 @@
                   moduleName = "LeetCodeTests"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/suili/demo/LeetCode/LeetCodeTests/StringToIntTest.swift"
-                  timestampString = "462987053.89308"
+                  timestampString = "469589563.8935"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "40"
                   endingLineNumber = "40"
-                  offsetFromSymbolStart = "1610">
+                  offsetFromSymbolStart = "1878">
                </Location>
                <Location
                   shouldBeEnabled = "Yes"
@@ -217,7 +217,7 @@
                   moduleName = "LeetCodeTests"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/suili/demo/LeetCode/LeetCodeTests/StringToIntTest.swift"
-                  timestampString = "462987053.893302"
+                  timestampString = "469589563.893956"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "40"
@@ -232,12 +232,12 @@
                   moduleName = "LeetCodeTests"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/suili/demo/LeetCode/LeetCodeTests/StringToIntTest.swift"
-                  timestampString = "462987053.893559"
+                  timestampString = "469589563.894306"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "40"
                   endingLineNumber = "40"
-                  offsetFromSymbolStart = "11">
+                  offsetFromSymbolStart = "15">
                </Location>
             </Locations>
          </BreakpointContent>
@@ -297,12 +297,12 @@
                   moduleName = "LeetCode"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/suili/demo/LeetCode/LeetCode/DontKnowName.swift"
-                  timestampString = "462987053.693076"
+                  timestampString = "469589562.633192"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "27"
                   endingLineNumber = "27"
-                  offsetFromSymbolStart = "295">
+                  offsetFromSymbolStart = "247">
                </Location>
                <Location
                   shouldBeEnabled = "Yes"
@@ -312,12 +312,12 @@
                   moduleName = "LeetCodeTests"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/suili/demo/LeetCode/LeetCode/DontKnowName.swift"
-                  timestampString = "462987053.894146"
+                  timestampString = "469589563.895688"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "27"
                   endingLineNumber = "27"
-                  offsetFromSymbolStart = "295">
+                  offsetFromSymbolStart = "247">
                </Location>
             </Locations>
          </BreakpointContent>
@@ -345,7 +345,7 @@
                   moduleName = "LeetCode"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/suili/demo/LeetCode/LeetCode/ClimbingStairs.swift"
-                  timestampString = "462987053.693656"
+                  timestampString = "469589562.634677"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "16"
@@ -360,7 +360,7 @@
                   moduleName = "LeetCodeTests"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/suili/demo/LeetCode/LeetCode/ClimbingStairs.swift"
-                  timestampString = "462987053.89431"
+                  timestampString = "469589563.896069"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "16"
@@ -425,7 +425,7 @@
                   moduleName = "LeetCode"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/suili/demo/LeetCode/LeetCode/Medium_LongestSubstringWithoutRepeatingCharacters.swift"
-                  timestampString = "462987053.707683"
+                  timestampString = "469589562.636759"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "22"
@@ -440,7 +440,7 @@
                   moduleName = "LeetCodeTests"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/suili/demo/LeetCode/LeetCode/Medium_LongestSubstringWithoutRepeatingCharacters.swift"
-                  timestampString = "462987053.894716"
+                  timestampString = "469589563.897309"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "22"
@@ -473,11 +473,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "LeetCode/ThreeSumClosest.swift"
-            timestampString = "462726160.11178"
+            timestampString = "468646618.184674"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "85"
-            endingLineNumber = "85"
+            startingLineNumber = "87"
+            endingLineNumber = "87"
             landmarkName = "threeSumClosest2(_:target:)"
             landmarkType = "5">
             <Locations>
@@ -489,12 +489,12 @@
                   moduleName = "LeetCode"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/suili/demo/LeetCode/LeetCode/ThreeSumClosest.swift"
-                  timestampString = "462987053.708584"
+                  timestampString = "469589562.638011"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "85"
-                  endingLineNumber = "85"
-                  offsetFromSymbolStart = "2733">
+                  startingLineNumber = "87"
+                  endingLineNumber = "87"
+                  offsetFromSymbolStart = "2272">
                </Location>
                <Location
                   shouldBeEnabled = "Yes"
@@ -504,12 +504,12 @@
                   moduleName = "LeetCodeTests"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/suili/demo/LeetCode/LeetCode/ThreeSumClosest.swift"
-                  timestampString = "462987053.894939"
+                  timestampString = "469589563.898068"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "85"
-                  endingLineNumber = "85"
-                  offsetFromSymbolStart = "2733">
+                  startingLineNumber = "87"
+                  endingLineNumber = "87"
+                  offsetFromSymbolStart = "2272">
                </Location>
             </Locations>
          </BreakpointContent>
@@ -521,11 +521,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "LeetCode/ThreeSumClosest.swift"
-            timestampString = "462725644.035673"
+            timestampString = "468646618.184674"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "60"
-            endingLineNumber = "60"
+            startingLineNumber = "62"
+            endingLineNumber = "62"
             landmarkName = "threeSumClosest2(_:target:)"
             landmarkType = "5">
             <Locations>
@@ -537,12 +537,12 @@
                   moduleName = "LeetCode"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/suili/demo/LeetCode/LeetCode/ThreeSumClosest.swift"
-                  timestampString = "462987053.709097"
+                  timestampString = "469589562.638991"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "60"
-                  endingLineNumber = "60"
-                  offsetFromSymbolStart = "589">
+                  startingLineNumber = "62"
+                  endingLineNumber = "62"
+                  offsetFromSymbolStart = "776">
                </Location>
                <Location
                   shouldBeEnabled = "Yes"
@@ -552,12 +552,12 @@
                   moduleName = "LeetCodeTests"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/suili/demo/LeetCode/LeetCode/ThreeSumClosest.swift"
-                  timestampString = "462987053.895103"
+                  timestampString = "469589563.898541"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "60"
-                  endingLineNumber = "60"
-                  offsetFromSymbolStart = "589">
+                  startingLineNumber = "62"
+                  endingLineNumber = "62"
+                  offsetFromSymbolStart = "776">
                </Location>
             </Locations>
          </BreakpointContent>
@@ -576,6 +576,214 @@
             endingLineNumber = "45"
             landmarkName = "init()"
             landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LeetCodeTests/GenerateParenthesesTest.swift"
+            timestampString = "464580026.113843"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "28"
+            endingLineNumber = "28"
+            landmarkName = "testExample()"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LeetCode/GenerateParentheses.swift"
+            timestampString = "464580546.049396"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "19"
+            endingLineNumber = "19"
+            landmarkName = "generateParentheses(_:)"
+            landmarkType = "5">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static LeetCode.GenerateParentheses.generateParentheses (LeetCode.GenerateParentheses.Type)(Swift.Int) -&gt; Swift.Array&lt;Swift.String&gt;"
+                  moduleName = "LeetCode"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/suili/demo/LeetCode/LeetCode/GenerateParentheses.swift"
+                  timestampString = "469589562.64022"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "109">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static LeetCodeTests.GenerateParentheses.generateParentheses (LeetCodeTests.GenerateParentheses.Type)(Swift.Int) -&gt; Swift.Array&lt;Swift.String&gt;"
+                  moduleName = "LeetCodeTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/suili/demo/LeetCode/LeetCode/GenerateParentheses.swift"
+                  timestampString = "469589563.899425"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "109">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LeetCode/RotateArray.swift"
+            timestampString = "468646756.719467"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "16"
+            endingLineNumber = "16"
+            landmarkName = "rotate(_:k:)"
+            landmarkType = "5">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static LeetCode.RotateArray.rotate (LeetCode.RotateArray.Type)(Swift.Array&lt;Swift.Int&gt;, k : Swift.Int) -&gt; Swift.Array&lt;Swift.Int&gt;"
+                  moduleName = "LeetCode"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/suili/demo/LeetCode/LeetCode/RotateArray.swift"
+                  timestampString = "469589562.641181"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "32">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static LeetCodeTests.RotateArray.rotate (LeetCodeTests.RotateArray.Type)(Swift.Array&lt;Swift.Int&gt;, k : Swift.Int) -&gt; Swift.Array&lt;Swift.Int&gt;"
+                  moduleName = "LeetCodeTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/suili/demo/LeetCode/LeetCode/RotateArray.swift"
+                  timestampString = "469589563.899844"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "32">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LeetCodeTests/DeleteNodeInaLinkedListTest.swift"
+            timestampString = "468942344.16444"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "25"
+            endingLineNumber = "25"
+            landmarkName = "testExample()"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LeetCodeTests/MoveZeroes.swift"
+            timestampString = "469260107.939174"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "71"
+            endingLineNumber = "71"
+            landmarkName = "doSwap(_:)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LeetCodeTests/MoveZeroes.swift"
+            timestampString = "469259606.006902"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "42"
+            endingLineNumber = "42"
+            landmarkName = "moveZeros2()"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LeetCode/ExcelSheetColumnNumber.swift"
+            timestampString = "469587095.652019"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
+            landmarkName = "titleToNumber(_:)"
+            landmarkType = "5">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static LeetCode.ExcelSheetColumnNumber.titleToNumber (LeetCode.ExcelSheetColumnNumber.Type)(Swift.String) throws -&gt; Swift.Int"
+                  moduleName = "LeetCode"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/suili/demo/LeetCode/LeetCode/ExcelSheetColumnNumber.swift"
+                  timestampString = "469589562.643276"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "1164">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static LeetCodeTests.ExcelSheetColumnNumber.titleToNumber (LeetCodeTests.ExcelSheetColumnNumber.Type)(Swift.String) throws -&gt; Swift.Int"
+                  moduleName = "LeetCodeTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/suili/demo/LeetCode/LeetCode/ExcelSheetColumnNumber.swift"
+                  timestampString = "469589563.90141"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "1164">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

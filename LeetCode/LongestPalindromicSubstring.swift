@@ -14,12 +14,12 @@ public class LongestPalindromicSubstring{
     
     public class func longestPalindrome(s : String ) -> String{
         
-        for var i = 1 ; i < (count(s) - 1) ; ++i {
+        for var i = 1 ; i < (s.characters.count - 1) ; ++i {
             
             let s = getPalindromicString(s, index : i)
             
             if s != nil {
-                if count(s!) > count(max_String){
+                if s!.characters.count > max_String.characters.count{
                     max_String = s!
                 }
             }
@@ -44,7 +44,7 @@ public class LongestPalindromicSubstring{
             
         }
         
-        while leftIndex >= 0 && rightIndex < count(s) {
+        while leftIndex >= 0 && rightIndex < s.characters.count {
             
             if s[leftIndex] == s[rightIndex] {
                 //是回文
@@ -57,7 +57,7 @@ public class LongestPalindromicSubstring{
                     return nil
                 }else{
                     //返回回文的字符
-                    return s.substringWithRange(Range<String.Index>(start: advance(s.startIndex, leftIndex + 1), end: advance(s.startIndex, rightIndex)))
+                    return s.substringWithRange(Range<String.Index>(start: s.startIndex.advancedBy(leftIndex + 1), end: s.startIndex.advancedBy(rightIndex)))
                     
                 }
             }
@@ -66,9 +66,9 @@ public class LongestPalindromicSubstring{
         //超过了字符的边界
         if leftIndex == -1 {
             //获取回文
-            return s.substringWithRange(Range<String.Index>(start: s.startIndex, end: advance(s.startIndex, rightIndex)))
-        }else if rightIndex == count(s){
-            return s.substringWithRange(Range<String.Index>(start: advance(s.startIndex, leftIndex + 1), end: s.endIndex))
+            return s.substringWithRange(Range<String.Index>(start: s.startIndex, end: s.startIndex.advancedBy(rightIndex)))
+        }else if rightIndex == s.characters.count{
+            return s.substringWithRange(Range<String.Index>(start: s.startIndex.advancedBy(leftIndex + 1), end: s.endIndex))
             
         }else{
             return nil

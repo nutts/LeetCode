@@ -29,11 +29,12 @@ class ThreeSum {
                 
                 if hm[c] != nil {
                     if c != a && c != b {
-                        println("there is matched result \(input[a]) , \(input[b]) , \(c)")
+                        print("there is matched result \(input[a]) , \(input[b]) , \(c)")
                         
                         var arrangeArray = [input[a], input[b], c]
                         
-                        sort(&arrangeArray)
+                        arrangeArray.sortInPlace({$0 < $1})
+                        //sort(&arrangeArray)
                         
                         
                         result.append(arrangeArray)

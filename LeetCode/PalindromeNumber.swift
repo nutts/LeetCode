@@ -22,7 +22,7 @@ class PalindromeNumber{
             str = "\(inputInt)"
         }
         
-        let length = count(str)
+        let length = str.characters.count
         
         for var v = 0 ; v < (length / 2); ++v {
             

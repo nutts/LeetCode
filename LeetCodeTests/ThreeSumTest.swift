@@ -27,7 +27,7 @@ class ThreeSumTest: XCTestCase {
         let result = ThreeSum.threeSum(s)
         
         
-        println(result)
+        print(result)
     }
 
     func testPerformanceExample() {

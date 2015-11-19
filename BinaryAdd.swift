@@ -12,9 +12,9 @@ class BinaryAdd {
     
     class func add( a : String, b : String ) -> String{
         
-        let len1 : Int = count(a)
+        let len1 : Int = a.characters.count
         
-        let len2  : Int = count(b)
+        let len2  : Int = b.characters.count
         
         let maxLen = len1 > len2 ? len1 : len2
         

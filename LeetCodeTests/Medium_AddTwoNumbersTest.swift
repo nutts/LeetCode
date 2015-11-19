@@ -33,7 +33,7 @@ class Medium_AddTwoNumbersTest: XCTestCase {
         
         let result = Medium_AddTwoNumbers.add(node1, b: node2)
         
-        println(result)
+        print(result)
         
     }
 

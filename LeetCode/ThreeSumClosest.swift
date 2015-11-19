@@ -13,7 +13,9 @@ class ThreeSumClosest {
     
     class func threeSumClosest(nums : [Int], target : Int ) -> Int {
         
-        let orderedSum = nums.sorted({ $0 < $1 })
+        
+        //nums.sort(<#T##isOrderedBefore: (Int, Int) -> Bool##(Int, Int) -> Bool#>)
+        let orderedSum = nums.sort({ $0 < $1 })
         
         var closeset = Int.max
         var closesetSum = Int.max
@@ -27,7 +29,7 @@ class ThreeSumClosest {
                         
                         closeset = abs(orderedSum[a] + orderedSum[b] + orderedSum[c] - target)
                         
-                        println("the closest data are (\(orderedSum[a]), \(orderedSum[b]), \(orderedSum[c]))")
+                        print("the closest data are (\(orderedSum[a]), \(orderedSum[b]), \(orderedSum[c]))")
                         
                         closesetSum = orderedSum[a] + orderedSum[b] + orderedSum[c]
                         
@@ -43,7 +45,7 @@ class ThreeSumClosest {
     //优化后的, 我相信不是最优的
     class func threeSumClosest2(nums : [Int], target : Int ) -> Int {
         
-        let orderedSum = nums.sorted({ $0 < $1 })
+        let orderedSum = nums.sort({ $0 < $1 })
         
         var closest = Int.max
         
@@ -77,7 +79,7 @@ class ThreeSumClosest {
                         if closest > previousClosest {
                             closest = previousClosest
                             
-                            println("the closest data are (\(orderedSum[a]), \(orderedSum[b]), \(orderedSum[c]))")
+                            print("the closest data are (\(orderedSum[a]), \(orderedSum[b]), \(orderedSum[c]))")
                             
                             closestSum = orderedSum[a] + orderedSum[b] + orderedSum[c]
                         }

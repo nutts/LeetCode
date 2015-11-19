@@ -1,15 +1,14 @@
 //
-//  RemoveNthFromEndTest.swift
+//  DeleteNodeInaLinkedListTest.swift
 //  LeetCode
 //
-//  Created by 遂 李 on 7/11/15.
-//  Copyright (c) 2015 遂 李. All rights reserved.
+//  Created by 遂 李 on 11/11/15.
+//  Copyright © 2015 遂 李. All rights reserved.
 //
-
 
 import XCTest
 
-class RemoveNthFromEndTest: XCTestCase {
+class DeleteNodeInaLinkedListTest: XCTestCase {
 
     override func setUp() {
         super.setUp()
@@ -22,28 +21,26 @@ class RemoveNthFromEndTest: XCTestCase {
     }
 
     func testExample() {
-        var root = ListNode(v: 1)
-        var node2 = ListNode(v: 2)
-        root.next = node2
         
-        var node3 = ListNode(v: 3)
+        let node1 = ListNode(v: 1)
+        let node2 = ListNode(v: 2)
+        let node3 = ListNode(v: 3)
+        let node4 = ListNode(v: 4)
+        
+        node1.next = node2
         node2.next = node3
-        
-        
-        var node4 = ListNode(v : 4)
         node3.next = node4
         
-        var node5 = ListNode(v: 5)
-        node4.next = node5
+        let result = DeleteNodeInaLinkedList.deleteNode(node1)
         
-        var newHead = RemoveNthFromEnd.remove(root, n: 2)
         
-        print(newHead)
+        print(result)
+        
     }
 
     func testPerformanceExample() {
         // This is an example of a performance test case.
-        self.measureBlock() {
+        self.measureBlock {
             // Put the code you want to measure the time of here.
         }
     }

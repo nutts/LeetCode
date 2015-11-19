@@ -27,9 +27,9 @@ class Medium_TwoSumTest: XCTestCase {
         
         let (a, b) = Medium_TwoSum.twoSum(nums, target: target)
         
-        println(a)
+        print(a)
         
-        println(b)
+        print(b)
         
     }
 

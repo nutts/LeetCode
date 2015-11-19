@@ -1,15 +1,15 @@
 //
-//  RemoveNthFromEndTest.swift
+//  GenerateParentheses.swift
 //  LeetCode
 //
-//  Created by 遂 李 on 7/11/15.
+//  Created by 遂 李 on 9/22/15.
 //  Copyright (c) 2015 遂 李. All rights reserved.
 //
 
 
 import XCTest
 
-class RemoveNthFromEndTest: XCTestCase {
+class GenerateParenthesesTest: XCTestCase {
 
     override func setUp() {
         super.setUp()
@@ -22,23 +22,10 @@ class RemoveNthFromEndTest: XCTestCase {
     }
 
     func testExample() {
-        var root = ListNode(v: 1)
-        var node2 = ListNode(v: 2)
-        root.next = node2
+        // This is an example of a functional test case.
+        let result = GenerateParentheses.generateParentheses(4)
         
-        var node3 = ListNode(v: 3)
-        node2.next = node3
-        
-        
-        var node4 = ListNode(v : 4)
-        node3.next = node4
-        
-        var node5 = ListNode(v: 5)
-        node4.next = node5
-        
-        var newHead = RemoveNthFromEnd.remove(root, n: 2)
-        
-        print(newHead)
+        print(result)
     }
 
     func testPerformanceExample() {

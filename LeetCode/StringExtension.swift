@@ -11,9 +11,10 @@ import Foundation
 extension String{
     
     subscript( i : Int) -> Character{
-        println(self + " and the i is \(i)")
+        print(self + " and the i is \(i)")
         
-        return self[advance(self.startIndex, i)]
+        //return self[advance(self.startIndex.advancedBy(i)]
+        return self[self.startIndex.advancedBy(i)]
     }
     
     var lastChar : Character{
@@ -25,7 +26,7 @@ extension String{
     }
     
     mutating func removeLastChar(){
-        let index = advance(self.endIndex,  -1)
+        let index = self.endIndex.advancedBy(-1)
         
         let result : String = self.substringToIndex(index)
         

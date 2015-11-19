@@ -29,7 +29,7 @@ class ReverseInteger {
             
         }
         
-        return result.toInt()!
+        return Int(result)!
         
     }
 }
